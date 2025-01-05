@@ -10,6 +10,7 @@ Envanter yönetim sistemi, kullanıcıların ürünleri ekleyip, güncelleyip, s
 - **Sistem Yönetimi**: Disk alanı görüntüleme ve hata kayıtlarını görüntüleme.
 - **Admin Kontrolü**: Yönetici yetkileriyle kullanıcıların şifrelerini sıfırlama.
 
+
 - ## Gereksinimler
 
 - `bash` betik dili
@@ -47,24 +48,51 @@ Bash script'i başlatmak için terminalde aşağıdaki komutu çalıştırın:
 ### Adım 2: Giriş Yapın
 
 - Kullanıcı adı ve parola girmeniz istenecektir. İlk girişte, varsayılan olarak bir admin kullanıcısı (kullanıcı adı: `Admin`, parola: `admin`) bulunur. Giriş başarılı olursa, ana menüye yönlendirilirsiniz.
+<img width="240" alt="2" src="https://github.com/user-attachments/assets/63508804-a303-4bf2-883a-077cb415a323" />
+<img width="249" alt="3" src="https://github.com/user-attachments/assets/c3372f18-4334-41d0-82ff-7f8f836790d7" />
+<img width="240" alt="4" src="https://github.com/user-attachments/assets/6d309846-5fd3-4714-9d16-23b4255714b0" />
 
 ### Adım 3: Ana Menü Seçenekleri
 
 Ana menüde aşağıdaki işlemler yapılabilir:
 
 1. **Ürün Ekle**: Yeni bir ürün ekleyebilirsiniz.
+<img width="244" alt="7" src="https://github.com/user-attachments/assets/9b1d723e-e47a-4ee4-9a50-410008672fe8" />
+<img width="244" alt="8" src="https://github.com/user-attachments/assets/ae0db19f-9ce8-4848-b1cd-60aa3aff733e" />
+<img width="244" alt="9" src="https://github.com/user-attachments/assets/19a5504c-a37f-4888-b226-5a4e699f1821" />
+<img width="244" alt="10" src="https://github.com/user-attachments/assets/a3154718-787a-4c48-b3f3-7a4542226019" />
+<img width="244" alt="12" src="https://github.com/user-attachments/assets/b7cac692-7cb7-43dd-a2c0-1483f1d1ffec" />
+<img width="244" alt="11" src="https://github.com/user-attachments/assets/fd2c8d2a-91fa-4bdd-a968-a34e86821604" />
+
+
 2. **Ürün Listele**: Mevcut ürünleri listeleyebilirsiniz.
+
 3. **Ürün Güncelle**: Var olan bir ürünün stok miktarı veya fiyat bilgisini güncelleyebilirsiniz.
+<img width="282" alt="13" src="https://github.com/user-attachments/assets/affaac46-04b5-4444-9e7c-695743254c03" />
+<img width="237" alt="14" src="https://github.com/user-attachments/assets/342f5ce7-1017-455e-bd7e-23c9283e4b77" />
+<img width="241" alt="15" src="https://github.com/user-attachments/assets/9595e268-b4f9-4ed3-972c-286811f6a815" />
+<img width="248" alt="16" src="https://github.com/user-attachments/assets/cfdc85cb-a1fc-4b34-beb9-be26e0021118" />
+
 4. **Ürün Sil**: Mevcut bir ürünü silebilirsiniz.
+
 5. **Rapor Al**: 
    - Stokta azalan ürünler raporunu alabilirsiniz.
    - En yüksek stok miktarına sahip ürünler raporunu alabilirsiniz.
+<img width="379" alt="17" src="https://github.com/user-attachments/assets/9155c449-8001-4ef2-a24b-51ddca020a39" />
+<img width="249" alt="26" src="https://github.com/user-attachments/assets/44043098-9ead-44ef-a828-d6736d1ef400" />
+<img width="298" alt="25" src="https://github.com/user-attachments/assets/3b32f0ec-f0e3-4695-a692-6637f5d131a6" />
+
+
 6. **Kullanıcı Yönetimi**: 
    - Yeni kullanıcı ekleyebilir.
    - Mevcut kullanıcıları listeleyebilirsiniz.
+<img width="383" alt="18" src="https://github.com/user-attachments/assets/0486af07-7b33-45f1-bbe9-840ee58b30b7" />
+
 7. **Program Yönetimi**:
    - Disk alanını görüntüleyebilirsiniz.
    - Hata kayıtlarını görüntüleyebilirsiniz.
+<img width="383" alt="19" src="https://github.com/user-attachments/assets/390d226b-465d-438f-b643-012d096cb2a6" />
+
 8. **Çıkış**: Uygulamadan çıkabilirsiniz.
 
 ### Adım 4: Yönetici İşlemleri
