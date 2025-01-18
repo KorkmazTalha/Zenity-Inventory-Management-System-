@@ -164,3 +164,7 @@ Hata loglarını görüntüler.
 - Kullanıcı girişlerinde Zenity GUI pencereleri kullanılmaktadır.
 - Yönetici işlemleri için admin kullanıcısının doğru parola ile giriş yapması gerekmektedir.
 - Dosyalar `.csv` formatında saklanmaktadır.
+
+**GitHub Link**
+
+https://github.com/KorkmazTalha/Zenity-Inventory-Management-System-
